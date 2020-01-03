@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-example
+spec:
+  containers:
+  - image: sepid/reverseproxy
+    name: reverseproxy
+    imagePullPolicy: Always          
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "250m"
+      limits:
+        memory: "1024Mi"
+        cpu: "500m"       
+    ports:
+    - containerPort: 8080
+  restartPolicy: Always
+
+
+  # Deploy POD 
+    # kubectl apply -f pod.yml
+
+  # View list of PODs
+    # kubectl get pod
+  # with more details 
+    # kubectl get pod -o wide
+

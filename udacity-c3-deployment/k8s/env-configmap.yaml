@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: udagram-sepid-dev
+  AWS_PROFILE: sepid
+  AWS_REGION: us-east-2
+  JWT_SECRET: MyNameIsSepid
+  POSTGRESS_DB: udagramsepiddev
+  POSTGRESS_HOST: udagramsepiddev.ce6zqcaa3s7q.us-east-2.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
+  
