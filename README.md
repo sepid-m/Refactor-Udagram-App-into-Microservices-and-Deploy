@@ -79,6 +79,14 @@ To Enabling Control Plane Logs:
 
 ![09-ClusterLogsintheAWSCloudWatchservice.png](screenshots/09-ClusterLogsintheAWSCloudWatchservice.png)
 
+![13.png](screenshots/13.png)
+
+![14.png](screenshots/13.png)
+
+![15.png](screenshots/13.png)
+
+![16.png](screenshots/13.png)
+
 ### Check your Pods Status
 
 `kubectl get all`  
