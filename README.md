@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Refactor Udagram App into Microservices and Deploy.
 > Udacity Cloud Developer Nanodegree
 By Sepid M.
@@ -77,7 +77,7 @@ To Enabling Control Plane Logs:
 
 ![08-EnableEKSClusterLogs.png](screenshots/08-EnableEKSClusterLogs.png) 
 
-![09-ClusterLogsintheAWSCloudWatchservice.png](screenshots09-ClusterLogsintheAWSCloudWatchservice.png)
+![09-ClusterLogsintheAWSCloudWatchservice.png](screenshots/09-ClusterLogsintheAWSCloudWatchservice.png)
 
 ### Check your Pods Status
 
@@ -128,8 +128,3 @@ install:
 - Check the build status page to see if your build passes or fails according to the return status of the build command by visiting [TravisCL](https://travis-ci.com) and selecting your repository.
 
 ![12-TravisCI.png](screenshots/12-TravisCI.png) 
-
-
-
-=======
->>>>>>> cb124dd753646b2fe82572c301dd1b607a62c493
