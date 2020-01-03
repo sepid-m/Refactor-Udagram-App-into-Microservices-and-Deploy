@@ -1,4 +1,5 @@
-# Udagram Microservices
+<<<<<<< HEAD
+# Refactor Udagram App into Microservices and Deploy.
 > Udacity Cloud Developer Nanodegree
 By Sepid M.
 
@@ -130,3 +131,5 @@ install:
 
 
 
+=======
+>>>>>>> cb124dd753646b2fe82572c301dd1b607a62c493
